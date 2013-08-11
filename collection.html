@@ -1,0 +1,64 @@
+<!--
+15-237 Homework 2 Part 2
+Carnegie Mellon University
+
+-->
+
+<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='collection.css'>
+	</head>
+
+	<body>
+
+		<div id="input-div">
+			<h1>ALIEN DATA COLLECTION </h1>
+			<form id="alien-form">
+				<label> Name </label> 
+				<input name="alien-name" id="alien-name" type="text" required="required" placeholder="Name">
+				
+				<label> Age (yrs) </label> 
+				<input name="alien-age" id="alien-age" type="text" required="required" placeholder="Age (yrs)"> 
+
+				<label> Height (cm) </label> 
+				<input name="alien-height" id="alien-height" type="text" required="required" placeholder="Height (cm)">  
+
+				<label> Weight (lb) </label> 
+				<input name="alien-weight" id="alien-weight"type="text" required="required" placeholder="Weight (lb)"> 
+
+				<label> Type </label>  
+				<select name="alien-type" id="alien-type" type="select" required="required">
+					<option value="Type A"> Type A</option>
+					<option value="Type B"> Type B</option>
+					<option value="Type C"> Type C</option>
+				</select> 
+
+				<label> Color </label>
+				<input name="alien-color" id="alien-color" type="text" required="required" placeholder="Color"> 
+
+				<input type="submit" value="Save"/>
+			</form>
+		</div>
+
+		<div id="table-div">
+			<h1>DATA SUMMARY </h1>
+			<table id="alien-table">
+				<thead>
+					<tr>
+						<th> Name </th>
+						<th> Age (yrs) </th>
+						<th> Height (cm) </th>
+						<th> Weight (lb) </th>
+						<th> Type </th>
+						<th> Color </th>
+					</tr>
+				</thead>
+				
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+
+		<script src='scripts.js' type='text/javascript'> </script>
+	</body>
+</htm>
